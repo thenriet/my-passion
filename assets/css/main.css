@@ -1,0 +1,36 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Oswald, sans-serif;
+}
+
+main {
+    background-color: cornsilk;
+}
+
+
+a:link,
+a:visited {
+    text-decoration: none;
+    cursor: pointer;
+    color: black
+}
+
+.navbar {
+    padding: 1.5rem 0;
+    background-color: antiquewhite;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0 2rem;
+    padding: 0;
+}
+
+.navbar li {}
+
+#home {
+    font-weight: 800;
+}

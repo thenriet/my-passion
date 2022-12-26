@@ -1,0 +1,35 @@
+.about-sections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about-sections img {
+    width: 50%;
+}
+
+.about-sections p {
+    font-size: 1.2rem;
+}
+
+.general-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    width: 70%;
+}
+
+.general-section img {
+    margin-right: 3rem;
+}
+
+.second-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    width: 70%;
+}

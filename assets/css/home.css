@@ -1,0 +1,53 @@
+.sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background-color: #FFEDCB;
+
+}
+
+.sections a {
+    color: rgb(206, 189, 189);
+}
+
+.section-about {
+    background-image: url("../images/stones.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 25%;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.section-history {
+    background-image: url("../images/clocks.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 25%;
+    margin-bottom: 3rem;
+}
+
+.section-books {
+    background-image: url("../images/book.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 25%;
+    margin-bottom: 3rem;
+}
