@@ -31,13 +31,11 @@
 .books-list p {
     width: 50%;
     font-size: 1.2rem;
-
 }
 
 .books-list {
     display: flex;
     flex-direction: column;
-
 }
 
 .book {
