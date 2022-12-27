@@ -8,3 +8,13 @@ $("#darkTrigger").click(function () {
         $("main").addClass("dark");
     }
 });
+
+const darkButton = document.querySelector("#darkTrigger");
+darkButton.addEventListener('click', () => {
+    if (darkButton.style.backgroundColor === 'white') {
+        darkButton.style.backgroundColor = 'black';
+    } else {
+        darkButton.style.backgroundColor = 'white';
+    }
+}
+)

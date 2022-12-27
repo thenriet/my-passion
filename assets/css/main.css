@@ -31,6 +31,11 @@ a:visited {
     padding: 0;
 }
 
+#separator {
+    width: 2px;
+    background-color: black;
+}
+
 #home {
     font-weight: 800;
 }
@@ -47,7 +52,19 @@ a:visited {
     color: #fff;
 }
 
-.darkTrigger {}
+#darkTrigger {
+    border-radius: 50%;
+    border: 1px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+}
+
+.light {
+    background-color: white;
+}
 
 /* Color pickr */
 
