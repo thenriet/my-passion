@@ -8,6 +8,7 @@
 
 .about-sections img {
     width: 50%;
+    height: 275px;
 }
 
 .about-sections p {
@@ -18,7 +19,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
     width: 70%;
 }
 
@@ -31,5 +31,10 @@
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
+    padding-bottom: 3rem;
     width: 70%;
+}
+
+.second-section p {
+    margin-right: 3rem;
 }

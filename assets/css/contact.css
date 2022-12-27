@@ -16,6 +16,7 @@ input {
 }
 
 textarea {
+    margin: 1rem 0;
     font-family: Oswald;
     width: 40%;
 }

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Meditation - Livres et inspirations</title>
+		<link rel="stylesheet" href="/assets/css/main.css">
+		<link rel="stylesheet" href="/assets/css/books.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/classic.min.css"/>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<div class="navbar">
+				<ul>
+					<li id="home">
+						<a href="/home.html">Home</a>
+					</li>
+					<li>
+						<a href="/about.html">Qu'est ce que la méditation</a>
+					</li>
+					<li>
+						<a href="/history.html">Histoire</a>
+					</li>
+					<li>
+						<a href="/books.html">Livres et inspirations</a>
+					</li>
+					<li>
+						<a href="/contact.html">Contact</a>
+					</li>
+					<li>
+						<button id="darkTrigger">Thème sombre/clair</button>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<main>
+			<div class="color-picker">
+				<p>Change la couleur du fond de la page</p>
+				<div class="theme-container"></div>
+				<div class="pickr-container"></div>
+			</div>
+			<div class="book-section">
+				<h1>Livres et inspirations</h1>
+				<div class="book-image">
+					<img src="assets/images/book.png" alt="picture of an old book">
+				</div>
+				<ul class="books-list">
+					<li>
+						<div class="book">
+							<img src="assets/images/bonheur.jpeg" alt="book named le bonheur de la méditation">
+							<p>Dans cet ouvrage unique en son genre, Yongey Mingyour Rinpotché, un grand maître tibétain, révèle les bienfaits réels de la méditation, en établissant un pont entre les enseignements du bouddhisme et les découvertes les plus récentes de la science, et plus particulièrement des neurosciences.
+								<br><br>
+								L’auteur expose l’essence de cette tradition millénaire de façon entièrement nouvelle et adaptée aux particularités de notre culture moderne. Grâce à de nombreux exemples, il nous dévoile que de simples exercices quotidiens de méditation (au bureau, dans le métro ou même dans la rue !), consistant à laisser aller et venir nos pensées sans y attacher d’importance mais sans les rejeter non plus, peuvent changer notre vision du monde et répondre à nos préoccupations essentielles.</p>
+						</div>
+					</li>
+					<li>
+						<div class="book">
+							<img src="assets/images/pouvoir.jpeg" alt="book named le pouvoir du moment présent">
+							<p>Le pouvoir du moment présent est probablement l'un des livres les plus importants de notre époque. Son enseignement simple et néanmoins profond a aidé des millions de gens à travers le monde à trouver la paix intérieure et à se sentir plus épanouis dans leur vie.
+								<br><br>
+								Au coeur de cet enseignement se trouve la transformation de la conscience : en vivant dans l'instant présent, nous transcendons notre ego et accédons à  un état de grâce, de légèreté et de bien-être.
+							</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</main>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+		<script src="assets/js/darkify.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
+		<script src="assets/js/picker.js"></script>
+	</body>
+</html>

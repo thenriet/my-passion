@@ -18,6 +18,9 @@ a:visited {
 .navbar {
     padding: 1.5rem 0;
     background-color: antiquewhite;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 
 .navbar ul {
@@ -28,13 +31,11 @@ a:visited {
     padding: 0;
 }
 
-.navbar li {}
-
 #home {
     font-weight: 800;
 }
 
-/* Dark theme */
+/* Dark theme and button */
 
 .dark {
     background-color: #112F41;
@@ -44,4 +45,25 @@ a:visited {
 .dark button {
     background: #144098;
     color: #fff;
+}
+
+.darkTrigger {}
+
+/* Color pickr */
+
+.active {
+    display: none;
+}
+
+.color-picker {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6rem;
+    z-index: 1;
+}
+
+.color-picker p {
+    margin: 0;
 }
