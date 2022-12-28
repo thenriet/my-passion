@@ -17,6 +17,7 @@
 .main-title h2 {
     margin: 0;
     text-align: center;
+    color: white;
 }
 
 .main-enter {
@@ -28,12 +29,16 @@
     background-color: #8a6d62;
 }
 
-.main-enter button {
+.main-enter p {
+    color: white;
+}
+
+.main-enter .enter-button {
     border-radius: 1.5rem;
     border: 1px;
     color: white;
     background-color: black;
-    width: 6rem;
-    height: 3rem;
+    width: 4rem;
     cursor: pointer;
+    text-align: center;
 }

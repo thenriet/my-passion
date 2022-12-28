@@ -7,7 +7,7 @@
 		<title>Contact</title>
 		<link rel="stylesheet" href="assets/css/main.css">
 		<link rel="stylesheet" href="assets/css/contact.css">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/classic.min.css"/>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/classic.min.css">
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 	</head>
@@ -49,25 +49,19 @@
 					<p>Formulaire de contact</p>
 				</div>
 				<form method="get" action="thanks.html">
-
 					<input type="text" value="" name="firstName" id="firstName" placeholder="Prénom" pattern="[A-Za-z]{1-45}" required>
-
 					<input type="text" value="" name="lastName" id="lastName" placeholder="Nom" pattern="[A-Za-z]{1-45}" required>
-
 					<input type="text" value="" name="email" id="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
-
-					<textarea rows="8" name="message" id="message" placeholder="Votre message"/></textarea>
-
-				<div class="submit-button">
-					<button type="submit">Envoyer</button>
-				</div>
-
+					<textarea rows="8" name="message" id="message" placeholder="Votre message"></textarea>
+					<div class="submit-button">
+						<button type="submit">Envoyer</button>
+					</div>
+				</form>
+				<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+				<script src="assets/js/darkify.js"></script>
+				<script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
+				<script src="assets/js/picker.js"></script>
 			</div>
-
-		</form>
-		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-		<script src="assets/js/darkify.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
-		<script src="assets/js/picker.js"></script>
+		</main>
 	</body>
-</html></main></body></html>
+</html>
